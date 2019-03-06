@@ -4,8 +4,9 @@
 cd ~
 git clone https://github.com/DCASE-REPO/dcase2018_baseline.git
 cd dcase2018_baseline/task1
-sudo apt-get install pip
-python pip -m install update
+sudo apt-get install python-pip
+pip install --upgrade setuptools
+python -m pip install --upgrade pip
 sudo apt-get install wheel
 sudo apt-get install python-subprocess32
 sudo apt-get install libsndfile1
